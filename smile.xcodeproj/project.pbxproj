@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		5F33C2681DD390B500CBFD42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33C2671DD390B500CBFD42 /* AppDelegate.swift */; };
-		5F33C26A1DD390B500CBFD42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33C2691DD390B500CBFD42 /* ViewController.swift */; };
+		5F33C26A1DD390B500CBFD42 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33C2691DD390B500CBFD42 /* FaceViewController.swift */; };
 		5F33C26D1DD390B500CBFD42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F33C26B1DD390B500CBFD42 /* Main.storyboard */; };
 		5F33C26F1DD390B500CBFD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F33C26E1DD390B500CBFD42 /* Assets.xcassets */; };
 		5F33C2721DD390B500CBFD42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F33C2701DD390B500CBFD42 /* LaunchScreen.storyboard */; };
 		5F33C27D1DD390B500CBFD42 /* smileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33C27C1DD390B500CBFD42 /* smileTests.swift */; };
 		5F33C2881DD390B500CBFD42 /* smileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33C2871DD390B500CBFD42 /* smileUITests.swift */; };
+		5F33C2961DD391EA00CBFD42 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F33C2951DD391EA00CBFD42 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		5F33C2641DD390B500CBFD42 /* smile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F33C2671DD390B500CBFD42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F33C2691DD390B500CBFD42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F33C2691DD390B500CBFD42 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		5F33C26C1DD390B500CBFD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F33C26E1DD390B500CBFD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F33C2711DD390B500CBFD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		5F33C2831DD390B500CBFD42 /* smileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F33C2871DD390B500CBFD42 /* smileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smileUITests.swift; sourceTree = "<group>"; };
 		5F33C2891DD390B500CBFD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F33C2951DD391EA00CBFD42 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				5F33C2671DD390B500CBFD42 /* AppDelegate.swift */,
-				5F33C2691DD390B500CBFD42 /* ViewController.swift */,
+				5F33C2691DD390B500CBFD42 /* FaceViewController.swift */,
 				5F33C26B1DD390B500CBFD42 /* Main.storyboard */,
+				5F33C2951DD391EA00CBFD42 /* FaceView.swift */,
 				5F33C26E1DD390B500CBFD42 /* Assets.xcassets */,
 				5F33C2701DD390B500CBFD42 /* LaunchScreen.storyboard */,
 				5F33C2731DD390B500CBFD42 /* Info.plist */,
@@ -262,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F33C26A1DD390B500CBFD42 /* ViewController.swift in Sources */,
+				5F33C26A1DD390B500CBFD42 /* FaceViewController.swift in Sources */,
 				5F33C2681DD390B500CBFD42 /* AppDelegate.swift in Sources */,
+				5F33C2961DD391EA00CBFD42 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
